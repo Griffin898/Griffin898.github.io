@@ -18,6 +18,12 @@ const darkModeToggleEl = document.getElementById('toggle');
 addButtonEl.addEventListener('click', () => {
     const inputValue = inputFieldEl.value
 
+    //ee
+    if(inputValue == "Jully"){
+        window.open("https://youtu.be/p7MjX3gmMPc?si=V3bnsAwYBskB-M1p", "Love Yaa");
+    }
+    
+    
     if (inputValue) {
         clearInputFieldEl();
         clearShoppingListEl();
