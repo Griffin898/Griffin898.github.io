@@ -23,7 +23,7 @@ html, body {
     font-family: 'Work Sans', sans-serif;
     background-color: var(--background);
     user-select: none;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .container {
